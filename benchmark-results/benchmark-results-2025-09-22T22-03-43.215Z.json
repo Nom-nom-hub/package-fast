@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-09-22T22-03-43.215Z",
+  "environment": {
+    "nodeVersion": "v22.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "cpus": 16,
+    "totalMemory": "8GB"
+  },
+  "results": {
+    "small-project": {
+      "clean-install": {
+        "package-fast": {
+          "time": 3444.6683333333335,
+          "cpuTime": 2731.642865951291,
+          "memory": 133.08492168309073,
+          "diskIO": 364.06170021224733
+        }
+      },
+      "warm-install": {
+        "package-fast": {
+          "time": 1266.0757666666668,
+          "cpuTime": 1177.9003687042066,
+          "memory": 118.69522738529328,
+          "diskIO": 366.6761894627714
+        }
+      },
+      "incremental-update": {
+        "package-fast": {
+          "time": 1918.8370666666667,
+          "cpuTime": 1543.4560519537288,
+          "memory": 90.13593519943147,
+          "diskIO": 267.4801199465002
+        }
+      }
+    },
+    "medium-project": {
+      "clean-install": {
+        "package-fast": {
+          "time": 3517.1071666666667,
+          "cpuTime": 3023.795080810669,
+          "memory": 96.86154073108519,
+          "diskIO": 185.62145842442695
+        }
+      },
+      "warm-install": {
+        "package-fast": {
+          "time": 1241.5059666666666,
+          "cpuTime": 1106.06758409748,
+          "memory": 94.17464306947336,
+          "diskIO": 465.9753797242565
+        }
+      },
+      "incremental-update": {
+        "package-fast": {
+          "time": 2142.6379333333334,
+          "cpuTime": 1881.9275846494183,
+          "memory": 77.50611305756496,
+          "diskIO": 423.506173390456
+        }
+      }
+    },
+    "large-project": {
+      "clean-install": {
+        "package-fast": {
+          "time": 3616.8495000000003,
+          "cpuTime": 2881.3570277834765,
+          "memory": 97.89867752695984,
+          "diskIO": 301.86452949350127
+        }
+      },
+      "warm-install": {
+        "package-fast": {
+          "time": 1230.3137,
+          "cpuTime": 951.8404597197749,
+          "memory": 109.48451936812542,
+          "diskIO": 364.39016063742093
+        }
+      },
+      "incremental-update": {
+        "package-fast": {
+          "time": 2397.6830333333332,
+          "cpuTime": 2215.8487195842717,
+          "memory": 76.48197362488399,
+          "diskIO": 447.08780674680764
+        }
+      }
+    }
+  }
+}

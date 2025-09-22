@@ -1,0 +1,21 @@
+{
+  "name": "small-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^1.1.1",
+    "moment": "^1.5.6",
+    "axios": "^1.4.7",
+    "express": "^1.8.7",
+    "react": "^1.5.4",
+    "vue": "^1.6.8",
+    "typescript": "^1.7.8",
+    "webpack": "^1.9.8",
+    "babel-core": "^1.4.3",
+    "jest": "^1.1.2",
+    "eslint": "^1.2.8",
+    "prettier": "^1.6.2",
+    "nodemon": "^1.4.1",
+    "dotenv": "^1.9.8",
+    "mongoose": "^1.2.6"
+  }
+}
